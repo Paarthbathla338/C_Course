@@ -1,15 +1,24 @@
 #include<iostream>
 using namespace std;
 
-int main(int argc, char const *argv[])
-{
-    int num1,num2;
-    cout<<"Enter the Value of Num1\n"; //This is Called Insertion Operator
-    cin>>num1; //Extraction Operator
-    cout<<"Enter the Value of Num2\n"; //This is Called Insertion Operator
-    cin>>num2; //Extraction Operator
+int main() {
+    //Hackerrank Problem
+    int a,b,c;
+    cout<<"Enter Your Number for addition\n";
+    cin>>a;
+    cout<<"Enter Your 2nd Number for addition\n";
+    cin>>b;
+    cout<<"Enter Your 3rd Number for addition\n";
+    cin>>c;
 
-    cout<<"The sum is\n"<<num1+num2;
-
+// Playing with Input Output
+    cout<<"Your Answer is: "<<a+b+c;  
+    int e,f;
+    cout<<"\nEnter your Number for Multiplication\n";
+    cin>>e;
+    cout<<"Enter your Number for Multiplication\n";
+    cin>>f;
+    cout<<"Your Answer is:"<<e*f;
+    
     return 0;
 }
